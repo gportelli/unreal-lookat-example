@@ -1,0 +1,238 @@
+
+_Assets_Apple/
+_AssetsUI/
+_Assets/
+_CarmaWwiseProject/
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/
+Plugins/*/Binaries/
+enc_temp_folder/
+DocsDebug
+
+# ================
+# Nuget packages
+packages/
+
+# ================
+# C# projects
+bin/
+obj/
+
+# ================
+# Extensions
+*.pyc
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.psess
+*.log
+*.obj
+.DS_Store
+*.pdb
+*.pch
+*.VC.db
+*.VC.opendb
+*.lib
+.vs/
+
+# ================
+# Wwise
+!Plugins/Wwise/ThirdParty/**/*.lib
+!Plugins/Wwise/ThirdParty/**/bin
+Plugins/Wwise/ThirdParty/**/bin/*
+!Plugins/Wwise/ThirdParty/**/bin/*.dll
+!Plugins/Wwise/ThirdParty/NX64/**/*.a
+
+Plugins/Wwise/ThirdParty/Win32_vc140
+Plugins/Wwise/ThirdParty/Win32_vc150
+Plugins/Wwise/ThirdParty/Win32_vc160
+
+# ================
+# FMOD
+!Plugins/FMODStudio/Binaries/
+Plugins/FMODStudio/Binaries/*
+
+!Plugins/FMODStudio/Binaries/Win32/
+Plugins/FMODStudio/Binaries/Win32/*
+!Plugins/FMODStudio/Binaries/Win32/*.lib
+!Plugins/FMODStudio/Binaries/Win64/*.dll
+Plugins/FMODStudio/Binaries/Win63/*DebugGame.dll
+
+!Plugins/FMODStudio/Binaries/Win64/
+Plugins/FMODStudio/Binaries/Win64/*
+!Plugins/FMODStudio/Binaries/Win64/*.lib
+!Plugins/FMODStudio/Binaries/Win64/*.dll
+Plugins/FMODStudio/Binaries/Win64/*DebugGame.dll
+
+Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudioEditor.dll
+Plugins/FMODStudio/Binaries/Win64/UE4Editor-FMODStudio.dll
+
+!Plugins/FMODStudio/Binaries/PS4/
+!Plugins/FMODStudio/Binaries/XboxOne/
+!Plugins/FMODStudio/Binaries/Switch/
+
+!Plugins/SCUE4/Source/ThirdParty/x64
+!Plugins/SCUE4/Source/ThirdParty/x64/*
+!Plugins/SCUE4/Source/ThirdParty/x86
+!Plugins/SCUE4/Source/ThirdParty/x86/*
+
+!Plugins/FMODStudio/Binaries/*/plugins.txt
+
+# ================
+# Scripts
+!Source/T4Core/Scripts/Build/
+Source/T4Core/Scripts/config.bat
+Source/T4Core/Scripts/Template/src/profiles/*
+Source/T4Core/Scripts/Template/*.bat
+!Source/T4Core/Scripts/Template/install-template.bat
+!Source/T4Core/Scripts/Template/src/profiles/__init__.py
+!Source/T4Core/Scripts/Template/src/profiles/profile.py.template
+
+# ================
+# Docs
+!Source/T4Core/Docs/scripts/libs/*.exe
+!_Extras/Doxygen/doxygen.exe
+!_Extras/Doxygen/doxywizard.exe
+
+# ================
+# Steam SDK
+_Extras/SteamSDK/sdk/client/
+_Extras/SteamSDK/sdk/glmgr/
+_Extras/SteamSDK/sdk/public/
+_Extras/SteamSDK/sdk/redistributable_bin/
+_Extras/SteamSDK/sdk/steamworksexample/
+_Extras/SteamSDK/sdk/readme.txt
+
+_Extras/SteamSDK/sdk/tools/contentserver/
+_Extras/SteamSDK/sdk/tools/drm/
+_Extras/SteamSDK/sdk/tools/goldmaster/
+_Extras/SteamSDK/sdk/tools/linux/
+_Extras/SteamSDK/sdk/tools/*.zip
+
+_Extras/SteamSDK/sdk/tools/ContentBuilder/builder/
+_Extras/SteamSDK/sdk/tools/ContentBuilder/builder_osx/
+_Extras/SteamSDK/sdk/tools/ContentBuilder/builder_linux/
+_Extras/SteamSDK/sdk/tools/ContentBuilder/content/
+_Extras/SteamSDK/sdk/tools/ContentBuilder/output/
+
+_Extras/SteamSDK/config.bat
+_Extras/SteamSDK/sdk/tools/ContentBuilder/scripts/output/
+_Extras/SteamSDK/_steam_build/Windows/
+
+# ================
+# Gog SDK
+!Plugins/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/*/*.dll
+!Plugins/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/*/*.lib
+!Plugins/OnlineSubsystemGOG/Source/ThirdParty/GalaxySDK/*/*.pdb
+
+# ================
+# OS generated 
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ================
+# PS4
+!Build/PS4
+!Build/PS4/sce_sys
+Build/PS4/*
+
+# ================
+# PS5
+!Build/PS5
+!Build/PS5/sce_sys
+Build/PS5/*
+
+# ================
+# XboxOne
+!Build/XboxOne
+!Build/XboxOne/Resources
+Build/XboxOne/*
+
+# ================
+# XSX
+!Build/XSX
+!Build/XSX/Resources
+Build/XSX/*
+
+# ================
+# Switch
+!Build/Switch
+!Build/Switch/Resources
+!Build/Switch/Resources/Icons
+Build/Switch/*
+
+# ================
+# Parameters Importer Plugin
+!Plugins/T4ParametersImporter/Binaries/
+Plugins/T4ParametersImporter/Binaries/Win64/
+!Plugins/T4ParametersImporter/Binaries/ThirdParty/
+!Plugins/T4ParametersImporter/Binaries/ThirdParty/GoogleSheetsApi/
+!Plugins/T4ParametersImporter/Binaries/ThirdParty/GoogleSheetsApi/Win64/*.dll
+!Plugins/T4ParametersImporter/Binaries/ThirdParty/GoogleSheetsApi/Win64/Libs/
+!Plugins/T4ParametersImporter/Binaries/ThirdParty/GoogleSheetsApi/Win64/Libs/*.dll
+Build/ps4/symbols/
+
+# ===============
+# Allow icons in this folder
+!Content/UI/Textures/Icons
+
+# ===============
+# Allow use of PSO Caching
+!Build/IOS
+Build/IOS/*.*
+!Build/IOS/PakBlacklist-*.*
+!Build/IOS/PipelineCaches
+!Build/TVOS
+Build/TVOS/*.*
+!Build/TVOS/PakBlacklist-*.*
+!Build/TVOS/PipelineCaches
+
+# ===============
+# Save OSX signign tool
+!Build/Mac
+!Build/Mac/PakBlacklist-*.*
+!Build/Mac/MacSign
+Build/Mac/MacSign/*.pkg
+Build/Mac/MacSign/*.app
+
+# ================
+# Discord SDK Plugin
+!Plugins/T4Discord/ThirdParty/**/*.lib
+!Plugins/T4Discord/ThirdParty/**/bin
+Plugins/T4Discord/ThirdParty/**/bin/*
+!Plugins/T4Discord/ThirdParty/**/bin/*.dll
+
+# ================
+# Hydra SDK Plugin
+!Plugins/HydraInterface/HydraSDK/**/*.lib
+!Plugins/HydraInterface/HydraSDK/bin
+!Plugins/HydraInterface/HydraSDK/bin/Win64/*.dll
+
+# ================
+# Houdini Engine Plugin
+!Plugins/HoudiniEngine/Resources
+!Plugins/HoudiniEngine/Resources/Icons
+
+# ================
+# T4 World Builder Plugin
+Plugins/T4WorldBuilder/Resources/HDAs/backup/*.*
+Plugins/T4WorldBuilder/Resources/HDAs/Utilities/backup/*.*
+Plugins/T4WorldBuilder/Resources/HoudiniAssets/InputTextures/*.*
+Plugins/T4WorldBuilder/Resources/HoudiniAssets/Cache/*.*
+
+# ================
+# VS-Chromium
+vs-chromium-project.txt
+
+# ================
+# Build scripts
+config.bat
